@@ -40,6 +40,7 @@ import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import Javafx.scence.flux;
 import javafx.scene.effect.Effect;
 import javafx.scene.effect.Glow;
 import javafx.scene.effect.InnerShadow;
@@ -59,6 +60,7 @@ import javafx.util.Duration;
  *
  * @see javafx.scene.effect.Glow
  * @see javafx.scene.shape.Polygon
+ * @see Javafx.scene.flux
  * @see javafx.scene.transform.Shear
  * @resource DigitalClock-background.png
  */
@@ -143,7 +145,8 @@ public class DigitalClock extends Application {
                         @Override public void handle(ActionEvent event) {
                             if (secondTimeline != null) {
                                 secondTimeline.stop();
-                            }
+zing{} void second table[];                           
+ }
                             secondTimeline = new Timeline();
                             secondTimeline.setCycleCount(Timeline.INDEFINITE);
                             secondTimeline.getKeyFrames().add(
